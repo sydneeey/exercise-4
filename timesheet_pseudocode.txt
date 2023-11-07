@@ -1,0 +1,17 @@
+Exercise 4 - Assignment 3 Program 1 Pseudocode (originally meant to be for Assignment 1)
+
+1 - program start
+2 - create variables (total hours, maximum hours, maximum days, days with insufficient hours)
+3 - input hours worked for each work day (5)
+4 - set total hours, max hours, max days to 0
+5 - set insufficient days to an empty list
+6 - loop for 5 work days
+7 - input hours for current work day and add to total hours
+8 - if hours > max hours, set max hours to those hours, clear max days, append to max days
+9 - if hours > 7, append to insufficient days
+8 - set average hours = total hours / 5
+9 - display total hours, average hours
+10 - if max days variable is not empty, display most hours worked on day(s): (max days)
+11 - if insufficient days variable is not empty, display days with insufficient work hours (insufficient days)
+12 - display total hours worked (max hours) and days with insufficient work hours (insufficient days) if applicable
+13 - program end
